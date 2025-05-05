@@ -1,6 +1,6 @@
 import { PrismaClient } from "@prisma/client";
 // const prisma = new PrismaClient();
-import prisma from "./db/db.config.js";y
+import prisma from "./db/db.config.js";
 
 export const setupSocket = (io) => {
   io.on("connection", (socket) => {
