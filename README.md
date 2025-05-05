@@ -70,16 +70,28 @@ This dashboard is designed to allow users to:
 Due to high latency and cold start times on free hosting platforms (like Vercel and Render), the live demo may experience delays in loading or inconsistent performance.
 For the best experience, it's recommended to run the project locally by following the instructions in the How to Run Locally section above.
 
-### 1. Clone the Repository
+### 1. Clone the Repository - run locally
 ```bash
 git clone https://github.com/soham-0-0-7/KanbanBoardBackend.git
 cd KanbanBoardBackend
 npm install
+```
+create a .env file with the variables 
+DATABASE_URL - url of the online/local postgres data base you want to use.
+JWT_SECRET - secret key value
+```bash
+npx prisma migrate dev --name initial_migration
 npm run start
 ```
 ```bash
 git clone https://github.com/soham-0-0-7/KanbanBoardFrontend.git
 cd KanbanBoardFrontend
 npm install
+```
+create a .env file with the variables 
+VITE_API_AUTH_URL - url for where your backend is hosted / listening for login, signup requests.
+VITE_SOCKET_URL - url for where your socket interacts.
+```bash
 npm run dev
+```
 
