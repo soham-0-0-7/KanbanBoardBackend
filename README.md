@@ -65,3 +65,15 @@ This dashboard is designed to allow users to:
 ---
 > project deployed - https://kanban-board-frontend-y74a.vercel.app/
 
+### 1. Clone the Repository
+```bash
+git clone https://github.com/soham-0-0-7/KanbanBoardBackend.git
+git clone https://github.com/soham-0-0-7/KanbanBoardFrontend.git
+cd KanbanBoardBackend
+npm install
+npm run start
+{ close and go to root folder }
+cd KanbanBoardFrontend
+npm install
+npm run dev
+
