@@ -94,6 +94,8 @@ npm install
 create a .env file with the variables 
 -  VITE_API_AUTH_URL - url for where your backend is hosted / listening for login, signup requests.
 -  VITE_SOCKET_URL - url for where your socket interacts.
-```bash
-npm run dev
+
+Recordings - https://drive.google.com/drive/folders/187Wp_TpOl2e8aLuzkKlF9qE8Zfr6db-C?usp=sharing
+
+R npm run dev
 ```
