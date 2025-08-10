@@ -95,6 +95,6 @@ create a .env file with the variables
 -  VITE_SOCKET_URL - url for where your socket interacts.
 
 Recordings - https://drive.google.com/drive/folders/187Wp_TpOl2e8aLuzkKlF9qE8Zfr6db-C?usp=sharing
-
-R npm run dev
+```bash
+ npm run dev
 ```
